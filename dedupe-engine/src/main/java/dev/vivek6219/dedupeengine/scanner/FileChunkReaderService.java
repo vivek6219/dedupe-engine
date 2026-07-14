@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 public class FileChunkReaderService {
     //            chunk data into bytes so it doesnt load all into memory and crash/slow the app down
     private static final int CHUNK_SIZE=8192; //8KB
+
     public void readChunks(Path filepath) throws IOException{
         byte[] buffer = new byte[CHUNK_SIZE];
 

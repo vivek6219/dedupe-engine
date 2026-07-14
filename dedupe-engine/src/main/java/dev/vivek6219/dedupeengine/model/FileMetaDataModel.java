@@ -5,6 +5,7 @@ import java.time.Instant;
 public record FileMetaDataModel(
     String Path,
     long sizeBytes,
-    Instant lastModifiedTime
+    Instant lastModifiedTime,
+    String sha256Hash
 ){}
 

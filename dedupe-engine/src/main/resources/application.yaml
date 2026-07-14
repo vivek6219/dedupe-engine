@@ -1,3 +1,6 @@
 spring:
   application:
     name: dedupe-engine
+dedupe:
+  storage:
+    chunk-directory: "./data/chunks"
