@@ -7,6 +7,8 @@ import java.util.List;
 import dev.vivek6219.dedupeengine.model.FileMetaDataModel;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+import dev.vivek6219.dedupeengine.service.scanner.DirectoryScannerService;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DirectoryScannerServiceTest {

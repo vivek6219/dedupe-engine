@@ -1,4 +1,4 @@
-package dev.vivek6219.dedupeengine.scanner;
+package dev.vivek6219.dedupeengine.service.chunking;
 
 import java.io.IOException;
 import java.nio.file.FileAlreadyExistsException;

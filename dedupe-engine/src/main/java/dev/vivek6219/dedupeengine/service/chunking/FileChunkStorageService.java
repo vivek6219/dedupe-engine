@@ -1,4 +1,4 @@
-package dev.vivek6219.dedupeengine.scanner;
+package dev.vivek6219.dedupeengine.service.chunking;
 
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import dev.vivek6219.dedupeengine.model.FileMetaDataModel;
 import org.springframework.stereotype.Service;
+import dev.vivek6219.dedupeengine.service.hashing.FileHashingService;
 
 @Service
 public class FileChunkStorageService {

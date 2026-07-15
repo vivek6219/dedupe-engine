@@ -1,0 +1,8 @@
+{
+  "filepath": "documents/report.pdf",
+  "chunkhashes" : [
+    "abc123",
+    "def456",
+    "ghi789"
+  ]
+}
